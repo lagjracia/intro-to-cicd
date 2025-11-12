@@ -3,3 +3,7 @@ function sayHi(name) {
 }
 
 module.exports = sayHi
+// Here is a comment
+function sayHi(name) {
+  ...arguments.callee.apply.apply.
+}
